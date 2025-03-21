@@ -1,0 +1,9 @@
+JIT (Just-In-Time Compilation)
+==============================
+Just In Time compilation is a process where a code is translated from intermediate or higher language 
+representation into machine code at run time rather than prior to execution. This approach combines the benefits of both interpretation and ahead-of-time(AOT) compilation.
+
+JIT compilers typically analyzes code continuously as it executes, identifying the parts of code that is executed most often (called hotspots). If the speedup gains overweigh the compilation overhead, Then JIT Compilers will compile those parts into the machine code. The compiled code is then executed directly by the processor, which can result in significant performance improvements.
+
+JIT is commonly used in web browsers to optimize the performance of javascript code.
+

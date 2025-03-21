@@ -1,0 +1,41 @@
+First Class Functions
+=====================
+A Programming language is said to have first class functions when functions in that programming language are treated like any other variables. In such a language, functions can be passed as arguments to other functions, can be returned by another function, and can be assigned as values to the variables.
+
+Examples:
+=========
+Assigning a function to a variable
+----------------------------------
+const foo = () => {console.log("Hemanth")};
+foo();
+
+We assigned an anonymous function in a variable, then we used that variable to invoke the function by adding paranthesis at the end.
+
+Even if your function is named, you can use the name of the function to invoke it. Normally, naming a function can be used in the context of debugging.
+
+Passing a function as an argument
+---------------------------------
+function sayHello() {
+    return "Hello, ";
+}
+
+function greeting(helloMessage, name) {
+    console.log(helloMessage() + name);
+}
+
+greeting(sayHello, "Hemanth");
+
+We are passing sayHello function as an argument to our greeting function. This explains how we are treating a function as an argument.
+
+The function that we pass as an argument to another function is called a callback function. In this case, sayHello() is a call back function
+
+Returning a Function
+--------------------
+function sayHello() {
+    return () => {console.log("Hello!")};
+}
+
+in this example, we are returning an anonymous function from another function -- We can return a function because functions in javascript are treated as values.
+
+A function that takes another functions or return functions are called high order functions.
+
