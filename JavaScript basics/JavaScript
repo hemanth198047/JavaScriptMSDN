@@ -1,0 +1,126 @@
+Javascript is alightweight interpreted programming language with first class functions. While it is most well known as scripting language for web pages, many non-browser environments also use it such as Node.js, Apache CouchDB, Adobe Acrobat.
+Javascript is a prototype based, multiparadigm, single threaded dynamic language supporting object oriented, imperative and declarative (functional programming) styles.
+
+Javascript dynamic capabilities includes creation of objects at runtime, variable paramter lists, function variables, dynamic script creation via eval, object introspection via for in, object utilities, and source code recovery etc. 
+The standards for javascript are the ECMAScript Specification and ECMAScript Internationalization API Specification.
+
+To start with learning the javascript, one should start with the guide.
+The javascript guide shows you how to use javascript and gives an overview of the language. 
+The guide is divided into following parts
+
+1. Introduction
+    a. About Javascript
+    b. javascript and java
+    c. ECMAScript
+    d. Tools
+    e. Hello World
+
+2. Grammer and Types
+    a. Basic Syntax and Comments
+    b. Declarations
+    c. Variable Scope
+    d. Variable Hoisting
+    e. Data Structures and Types
+    f. Literals
+
+3. Control Flow and Error Handling
+    a. If...else
+    b. switch
+    c. try/catch/throw
+    d. Error Objects
+    
+4. Loops and Iteration
+    a. for
+    b. while
+    c. do...while
+    d. continue
+    e. break
+    f. for...in
+    g. for...of
+    
+5. Functions
+    a. Defining functions
+    b. calling functions
+    c. Function scopes and closures
+    d. Arguments and Parameters
+    e. Arrow Functions
+    
+6. Expressions and Operators
+    a. Assignments and Comparisions
+    b. Arithmetic Operators
+    c. Bitwise and Logical operators
+    d. Conditional (ternery) Operatos
+    
+7. Numbers and Strings
+    a. Numebrs
+    b. Number Object
+    c. Math Object
+    d. Strings
+    e. String Object
+    f. Template Literals
+    
+8. Representing Dates and Times
+    a. Date Object
+
+9. Regular Expressions
+    a. Creating a regular expression
+    b. Writing a regular expression pattern
+        1. Assertions
+        2. Character Classes
+        3. Groups and Back References
+        4. Quantifiers
+
+10. Indexed Collections
+
+11. Keyed Collections
+    a. Map
+    b. WeakMap
+    c. Set
+    d. WeakSet
+
+12. Working With Objects
+    a. Objects and Properties
+    b. Creating Objects
+    c. Defining Methods
+    d. Getter and Setter
+    
+13. Using Classes
+    a. Declaring a class
+    b. Various Class Features
+    c. Extends and Inheritence
+    d. Why classes?
+    
+14. Promises
+    a. Guarantees
+    b. Chaining
+    c. Error Handling
+    d. Composition
+    e. Timing
+    
+15. Typed Arrays
+    a. Typed arrays
+
+16. Iterators and Generators
+    a. Iterators
+    b. Iterables
+    c. Generators
+    
+17. Internationalization
+    a. Date and Time Formatting
+    b. Number Formatting
+    c. Collation
+    
+18. Meta Programming
+    a. Proxy
+    b. Handlers and Traps
+    c. Revocable Proxy
+    d. Reflect
+    
+19. JavaScript Modules
+    a. Exporting
+    b. Importing
+    c. Default Exports
+    d. Renaming Features
+    e. Aggregating Modules
+    f. Dynamic Module Loading
+    
